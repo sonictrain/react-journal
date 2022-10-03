@@ -1,9 +1,13 @@
 import React from 'react'
+import Header from './Header'
+import Article from './Article'
 
 function App() {
-
   return (
-    <h1>Hello World!</h1>
+    <div className="container">
+      <Header />
+      <Article />
+    </div>
   )
 }
 
