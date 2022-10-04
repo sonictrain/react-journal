@@ -32,6 +32,23 @@ body {
   height: 200px;
 }
 
+article {
+  display: flex;
+}
+
+.article--info--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.article--location--container {
+  display: flex;
+}
+
+.location--pin {
+  width: 0.75rem;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
