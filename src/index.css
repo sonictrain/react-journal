@@ -21,32 +21,82 @@ body {
 }
 
 .header--logo {
-  padding-right: 1rem;
+  padding-right: 0.5rem;
   width: 30px;
-}
-
-.article--cover {
-  background-image: url(https://source.unsplash.com/WLxQvbMyfas);
-  background-position: cover;
-  width: 200px;
-  height: 200px;
 }
 
 article {
   display: flex;
+  padding: 45px 40px 15px 40px;
 }
+
+.article--cover {
+  background-image: url(https://source.unsplash.com/WLxQvbMyfas);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  border-radius: 5px;
+}
+
 
 .article--info--container {
   display: flex;
   flex-direction: column;
+  padding-left: 2rem;
 }
 
 .article--location--container {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.article--info {
+  display: flex;
+  flex-direction: column;
 }
 
 .location--pin {
   width: 0.75rem;
+}
+
+.location--city {
+  padding-left: 0.25rem;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.125em;
+  color: #2B283A;
+}
+
+.location--link {
+  padding: 0.5rem;
+  font-size: 11px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+/* .article--info > :nth-child(n) {
+  margin: 0;
+} */
+
+.article--title {
+  font-size: 25px;
+  color: #2B283A;
+  margin: 1rem 0;
+}
+
+.article--date {
+  font-weight: 700;
+  font-size: 11px;
+  color: #2B283A;
+  margin: 0;
+}
+
+.article--description {
+  font-size: 11px;
+  line-height: 150%;
+  margin: 0.5rem 0;
 }
 
 @media (prefers-color-scheme: light) {
