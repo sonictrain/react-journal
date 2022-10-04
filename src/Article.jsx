@@ -6,7 +6,7 @@ function Article() {
             <div className="article--cover"></div>
             <div className="article--info.container">
                 <div className="article--location">
-                    <img src="./location-dot-solid.svg" alt=""></img>
+                    <img src="/location-pin.svg" alt="pin icon"></img>
                     <h4>Japan</h4>
                     <p className="location--link"></p>
                 </div>
