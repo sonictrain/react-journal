@@ -1,6 +1,7 @@
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
+  font-size: 12px;
 }
 .container{
   display: flex;
@@ -36,6 +37,7 @@ article {
   background-repeat: no-repeat;
   background-position: center;
   width: 500px;
+  height: 200px;
   border-radius: 5px;
 }
 
@@ -44,12 +46,17 @@ article {
   display: flex;
   flex-direction: column;
   padding-left: 2rem;
+  justify-content: center;
 }
 
 .article--location--container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.article--location--container > :nth-child(n) {
+  margin: 0;
 }
 
 .article--info {
