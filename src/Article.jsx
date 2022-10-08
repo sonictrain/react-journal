@@ -1,19 +1,19 @@
 import React from 'react'
 
-function Article() {
+function Article(props) {
     return (
         <article>
-            <img src="https://source.unsplash.com/WLxQvbMyfas" alt="tokyo cover" />
+            <img src={props.img} alt={props.img_alt} />
             <div className="article--info--container">
                 <div className="article--location--container">
                     <img className="location--pin" src="/location-pin.svg" alt="pin icon"></img>
-                    <h4 className="location--city">JAPAN</h4>
-                    <p className="location--link">View on Google Maps</p>
+                    <h4 className="location--city">{props.location}</h4>
+                    <a href={props.maps_link} className="location--link">View on Google Maps</a>
                 </div>
                 <div className="article--info">
-                    <h2 className="article--title">Monte Fuji</h2>
-                    <h5 className="article--date">12 Jan, 2021 - 24 Jan, 2021</h5>
-                    <p className="article--description">Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.</p>
+                    <h2 className="article--title">{props.title}</h2>
+                    <h5 className="article--date">{props.from_date} - {props.to_date}</h5>
+                    <p className="article--description">{props.description}</p>
                 </div>
             </div>
         </article>
