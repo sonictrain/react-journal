@@ -3,7 +3,7 @@ import React from 'react'
 function Article() {
     return (
         <article>
-            <div className="article--cover"></div>
+            <img src="https://source.unsplash.com/WLxQvbMyfas" alt="tokyo cover" />
             <div className="article--info--container">
                 <div className="article--location--container">
                     <img className="location--pin" src="/location-pin.svg" alt="pin icon"></img>
