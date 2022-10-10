@@ -6,6 +6,7 @@ function Article(props) {
         <article>
             <div className="divider">    
                 <img className="article-img" src={props.img} alt={props.img_alt} />
+                <img className="thumbs-up" src="/thumbs-up.svg" alt="thumbs up icon" />
                 <div className="article-container">
                     <div className="location-container">
                         <img className="pin" src="/location-pin.svg" alt="pin icon"></img>
