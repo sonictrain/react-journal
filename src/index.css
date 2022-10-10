@@ -1,5 +1,5 @@
 html {
-font-size: 12px;
+font-size: 16px;
 }
 
 body {
@@ -11,7 +11,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  justify-content: center;
   width: 100%;
 }
 
@@ -21,7 +20,6 @@ body {
   height: 5rem;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
   letter-spacing: -0.075em;
   background: #F55A5A;
   color: whitesmoke;
@@ -54,7 +52,6 @@ article {
   display: flex;
   flex-direction: column;
   padding-left: 1.25rem;
-  justify-content: center;
   width: 70%;
   max-width: 500px;
 }
@@ -62,7 +59,6 @@ article {
 .location-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 
 .location-container > :nth-child(n) {
