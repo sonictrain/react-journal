@@ -12,7 +12,7 @@ export default [
             maps_link: "https://goo.gl/maps/xondtBRswDMYrDc36"
         },
         images: {
-            cover: "https://source.unsplash.com/WLxQvbMyfas",
+            cover: "./tokyo.webp",
             alt: "Mount Fuji Photo"
         }
     },
@@ -29,7 +29,7 @@ export default [
             maps_link: "https://goo.gl/maps/cGgaCeTKmAdjwa3U6"
         },
         images: {
-            cover: "https://source.unsplash.com/JmuyB_LibRo",
+            cover: "./sydney.webp",
             alt: "Opera House Photo"
         }
     },
@@ -46,7 +46,7 @@ export default [
             maps_link: "https://goo.gl/maps/RNggq23FoqgCffRM9"
         },
         images: {
-            cover: "https://source.unsplash.com/3PeSjpLVtLg",
+            cover: "./norway.webp",
             alt: "Geirangerfjord Photo"
         }
     }
