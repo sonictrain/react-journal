@@ -1,12 +1,21 @@
 import React from 'react'
+import { useState } from 'react'
 
 function Article(props) {
+    const [count, setCount] = useState(0)
     
     return (
         <article>
-            <div className="divider">    
-                <img className="article-img" src={props.img} alt={props.img_alt} />
-                <img className="thumbs-up" src="/thumbs-up.svg" alt="thumbs up icon" />
+            <div className="divider">
+                <div className="image-container">
+                    <img className="article-img" src={props.img} alt={props.img_alt} />
+                    <div className="like-counter-container">
+                        <button onClick={() => setCount((count) => count + 1)}>
+                            <img src="/thumbs-up.svg" alt="thumbs up icon" />
+                        </button>
+                        <h5>{count}</h5>
+                    </div>   
+                </div> 
                 <div className="article-container">
                     <div className="location-container">
                         <img className="pin" src="/location-pin.svg" alt="pin icon"></img>
