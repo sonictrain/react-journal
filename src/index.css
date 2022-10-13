@@ -156,3 +156,55 @@ button:hover {
   line-height: 1.25rem;
   margin: 0.5rem 0;
 }
+
+
+@media (max-width: 500px) {
+  html {
+    font-size: 16px;
+  }
+
+  .divider {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #F55A5A;
+  }
+
+  .article-img {
+    object-fit: cover;
+    border-radius: 0.5rem;
+    aspect-ratio: 2/1;
+    max-width: 100%;
+  }
+
+  .like-counter-container {  
+    position: absolute;
+    left: 0; 
+    right: 0;
+    bottom: -2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .like-counter-container button {
+    padding: 0.250rem;
+    width: 2rem;
+  }
+
+  .image-container {
+    margin-bottom: 2rem;
+  }
+
+  .article-container{
+    width: 100%;
+  }
+
+  .location-container {
+    justify-content: space-between;
+  }
+
+  .location-container > :last-child {
+    margin-left: auto;
+  }
+}
