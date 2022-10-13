@@ -37,8 +37,8 @@ article {
 
 .divider {
   display: flex;
-  padding: 3rem 0rem 1.5rem 0rem;
-  border-bottom: 2px solid #F5F5F5;
+  padding: 3rem 0rem 2rem 0rem;
+  border-bottom: 4px solid #F5F5F5;
   position: relative;
 }
 
@@ -101,7 +101,7 @@ button:hover {
 .article-container {
   display: flex;
   flex-direction: column;
-  padding-left: 1.25rem;
+  padding: 0 1.25rem;
   width: 70%;
   max-width: 500px;
 }
@@ -166,12 +166,12 @@ button:hover {
     font-size: 16px;
   }
 
-
   .divider {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: #F55A5A;
+    padding: 1.25rem;
+    border-bottom: 4px solid #F5F5F5;
   }
 
   .article-img {
@@ -198,6 +198,7 @@ button:hover {
 
   .image-container {
     margin-bottom: 2rem;
+    /* padding: 0 1.25rem; */
   }
 
   .article-container{
