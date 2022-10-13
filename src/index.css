@@ -109,10 +109,16 @@ button:hover {
 .location-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+
 }
 
 .location-container > :nth-child(n) {
   margin: 0;
+}
+
+.location-container > :last-child {
+  margin-left: auto;
 }
 
 .detail-container {
@@ -205,11 +211,11 @@ button:hover {
     width: 100%;
   }
 
-  .location-container {
+  /* .location-container {
     justify-content: space-between;
   }
 
   .location-container > :last-child {
     margin-left: auto;
-  }
+  } */
 }
